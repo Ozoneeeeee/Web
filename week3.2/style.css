@@ -1,0 +1,47 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5 url('./images/background.webp');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Social links container */
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Each logo */
+.social-links li a img {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Facebook hover effect */
+.social-links li a.facebook:hover img {
+  transform: scale(1.2);
+  box-shadow: 0 4px 10px rgba(59, 89, 152, 0.6);
+  background-color: #3b5998;
+}
+
+/* LinkedIn hover effect */
+.social-links li a.linkedin:hover img {
+  transform: scale(1.2);
+  box-shadow: 0 4px 10px rgba(0, 119, 181, 0.6);
+  background-color: #0077b5;
+}
+
+/* Instagram hover effect */
+.social-links li a.instagram:hover img {
+  transform: scale(1.2);
+  box-shadow: 0 4px 10px rgba(193, 53, 132, 0.6);
+  background: linear-gradient(45deg, #feda75, #d62976, #962fbf, #4f5bd5);
+}

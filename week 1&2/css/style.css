@@ -1,0 +1,48 @@
+p {
+    color: green;
+    font-size: 50px;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 24px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: burlywood;
+    font-size: 60px;
+}
+.para {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    background-color: burlywood;
+    margin-bottom: 100px;
+    border: 10px solid red;
+}
+.para-black {
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    background-color: burlywood;
+}
+
+.kraby {
+    background-color:aqua;
+    height: auto;
+    width: auto;
+}
